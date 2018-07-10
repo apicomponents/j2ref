@@ -1,5 +1,7 @@
 # j2ref - jsonpointer alternative that uses JavaScript syntax
 
+[![Build Status][build-status-image]][build-status] [![Observable Notebook][observable-notebook-image]][observable-notebook] 
+
 This is an alternative to jsonpointer which uses JavaScript syntax.
 
 Instead of:
@@ -15,8 +17,6 @@ $['foo bar'].quux[12].status
 ```
 
 [It's developed and tested in this Observable Notebook.][observable-notebook]
-
-[![Build Status][build-status-image]][build-status] [![Observable Notebook][observable-notebook-image]][observable-notebook] 
 
 [build-status]: https://travis-ci.com/apicomponents/j2ref
 [build-status-image]: https://travis-ci.com/apicomponents/j2ref.svg?branch=master
