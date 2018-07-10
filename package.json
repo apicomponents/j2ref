@@ -1,0 +1,29 @@
+{
+  "name": "j2ref",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "download-notebook": "node --experimental-modules build/download-notebook.mjs",
+    "build-test-notebook": "node --experimental-modules build/build-test-notebook.mjs",
+    "test-module": "node build/test-module.js",
+    "test": "npm run build-test-notebook && npm run test-module"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apicomponents/j2ref.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apicomponents/j2ref/issues"
+  },
+  "homepage": "https://github.com/apicomponents/j2ref#readme",
+  "devDependencies": {
+    "@observablehq/notebook-runtime": "^1.2.3",
+    "jsdom": "^11.11.0",
+    "node-fetch": "^2.1.2"
+  },
+  "observable": "https://api.observablehq.com/@benatkin/building-an-npm-module-with-observable.js"
+}
